@@ -1,0 +1,97 @@
+:root{
+     --heading-font-color:white;
+}
+body{
+     margin: 0;
+}
+/* common code start  */
+a{
+     text-decoration: none;
+     background: tomato;
+     color: #fff;
+     padding: 20px;
+     border-radius: 5px;
+     text-align: right;
+     font-size: 20px;
+}
+p{
+     font-size: 22px;
+     color: #fff;
+}
+h2{
+     font-size: 50px;
+     color: red;
+}
+/* common code end  */
+/* Header part start  */
+.container{
+     display: flex;
+     justify-content: space-between;
+     background: black;
+     margin: 0;
+     width: 100%;
+     
+}
+h1{
+     margin-top: 10px;
+     margin-left: 100px;
+     margin: 0px 0px 0px 100px;
+     font-size: 50px;
+     color: var(--heading-font-color);
+     
+}
+li{
+     list-style: none;
+     display: flex;
+     margin-right: 10px;
+     
+}
+li a{
+     text-decoration: none;
+     padding: 20px 30px;
+     background: black;
+     margin: 2px;
+     color: #fff;
+     text-align: center;
+     border-radius: 7px;
+
+
+}
+li a:hover{
+     background: yellowgreen;
+     color: red;
+}
+/* Header part End  */
+
+.main-container{
+     width: 90% auto;
+     display: flex;
+     height: 80vh;
+     /* margin-top: 25px;      */
+     background: black;
+     
+}
+.main-banner{
+     width: 45%;
+     border: 1px solid;
+     margin-left: 3.5%;
+     
+
+}
+.banner-discription{
+     width: 45%;
+     border: 1px solid;
+     /* padding-top: 30px; */
+     margin-left: 3%;
+     margin-right: 3.5%;
+     padding: 15px 10px;
+}
+.banner-discription a{
+     text-align: right;
+     display: inline-block;
+     margin-left: 450px;
+}
+.banner-discription a:hover{
+     background: #fff;
+     color: black;
+}
